@@ -1,7 +1,7 @@
 # SIADS_591_MILESTONE1
 Scripts for milestone 1 Project Data Collection, Manip and cleaning
 
-/assets/images/74ef3f9fa08cd876398503a8ce24ea50.jpeg
+![alt text](https://github.com/limesarelife/SIADS_591_MILESTONE1/blob/main/74ef3f9fa08cd876398503a8ce24ea50.jpeg)
  
 First script Pytrens_ACNH_version2-3 takes the villagers names from villagers.csv and creates a list(appended Animal Crossing to the name for each item in the list) from the names which using the built in API function pulls the Google Trends Related Queries and fetches the historical searches per villager name.  Returns a dictionary of the names searched and the "rising" key contains the query (search conducted) and value of number of all time searches related to the animal crossing villager name.  It then pulls out the rising and parses with for loop to pull back and append to empty df all queries and values of villagers names where there were searches on Google and ignore the none's
 
